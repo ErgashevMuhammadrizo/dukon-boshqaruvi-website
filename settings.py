@@ -10,9 +10,11 @@ if not SECRET_KEY:
     else: raise RuntimeError('DJANGO_SECRET_KEY kiriting: admin sessiyalari uchun doimiy maxfiy kalit kerak')
 if not DEBUG and (len(SECRET_KEY) < 50 or SECRET_KEY.startswith('replace-')):
     raise RuntimeError('DJANGO_SECRET_KEY kamida 50 belgili va haqiqiy tasodifiy qiymat bo‘lishi kerak')
-ALLOWED_HOSTS = [x.strip() for x in os.environ.get('ALLOWED_HOSTS','localhost,127.0.0.1,[::1]').split(',') if x.strip()]
-if os.environ.get('RAILWAY_PUBLIC_DOMAIN'): ALLOWED_HOSTS.append(os.environ['RAILWAY_PUBLIC_DOMAIN'])
-CSRF_TRUSTED_ORIGINS = [x.strip() for x in os.environ.get('CSRF_TRUSTED_ORIGINS','').split(',') if x.strip()]
+# The website's production domain is part of the code, independent of the API service.
+from .domain import configured_hosts, configured_origins, configured_site_url
+SITE_URL = configured_site_url(os.environ)
+ALLOWED_HOSTS = configured_hosts(os.environ)
+CSRF_TRUSTED_ORIGINS = configured_origins(os.environ)
 ROOT_URLCONF = 'website.urls'
 INSTALLED_APPS = ['django.contrib.admin','django.contrib.auth','django.contrib.contenttypes',
     'django.contrib.sessions','django.contrib.messages','django.contrib.staticfiles','website.apps.WebsiteConfig']

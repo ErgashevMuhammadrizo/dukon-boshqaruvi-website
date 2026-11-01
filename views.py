@@ -64,7 +64,12 @@ def unavailable_apk():
     return response
 
 def context(request, page):
-    return {'site': configuration(), 'page': page, 'canonical': request.build_absolute_uri(request.path), 'og_image': request.build_absolute_uri('/static/site/og.png')}
+    from django.conf import settings
+    from .domain import WEBSITE_URL
+    origin = getattr(settings, 'SITE_URL', WEBSITE_URL).rstrip('/')
+    return {'site': configuration(), 'page': page,
+        'canonical': origin + request.path,
+        'og_image': origin + '/static/site/og.png'}
 
 @require_safe
 def home(request):

@@ -1,3 +1,12 @@
+# Railway domeni kodga biriktirildi
+
+Sayt domeni: https://dukon-boshqaruvi-website-production.up.railway.app/
+Admin: https://dukon-boshqaruvi-website-production.up.railway.app/admin/
+
+Domen settings orqali ALLOWED_HOSTS va CSRF_TRUSTED_ORIGINS ga avtomatik qo‘shiladi. SITE_URL, canonical va Open Graph havolalari ham shu website domeniga moslandi. Railway’ning boshqa domeni bo‘lsa RAILWAY_PUBLIC_DOMAIN orqali ham qabul qilinadi. Ilova backend API yoki inPAY callback domeni almashtirilmadi.
+
+Deploy: ushbu website kodini Railway’dagi WEBSITE servisiga yuklang va redeploy qiling. Bu ZIP tayyorlangan; Railway servisiga ushbu suhbatdan deploy qilinmagan. DJANGO_SECRET_KEY avvalgi doimiy qiymat bo‘lib qolsin. DATA_ROOT=/data uchun persistent volume saqlansin. Docker ishga tushganda migratsiyalarni bajaradi.
+
 # e-dukon website · DEALS
 
 Mahsulot sayti, admin paneldan boshqariladigan kontaktlar va Android/Windows yuklamalari.
@@ -34,8 +43,8 @@ Ushbu website papkasini alohida servisga deploy qilish mumkin. Dockerfile mavjud
 ```env
 DJANGO_SECRET_KEY=haqiqiy-tasodifiy-uzun-doimiy-kalit
 DEBUG=0
-ALLOWED_HOSTS=sizning-domeningiz.uz
-CSRF_TRUSTED_ORIGINS=https://sizning-domeningiz.uz
+ALLOWED_HOSTS=dukon-boshqaruvi-website-production.up.railway.app
+CSRF_TRUSTED_ORIGINS=https://dukon-boshqaruvi-website-production.up.railway.app
 DATA_ROOT=/data
 ```
 
