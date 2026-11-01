@@ -1,0 +1,11 @@
+{
+  "name": "e-dukon-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check static/site/site.js && node --check static/site/download.js",
+    "test": "node --test tests/download.test.mjs",
+    "dev": "DEBUG=1 python3 manage.py runserver 0.0.0.0:${PORT:-8000} --noreload"
+  }
+}
