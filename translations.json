@@ -1,0 +1,1037 @@
+{
+  "0": {
+    "uz": "Sahifa topilmadi — e-dukon",
+    "ru": "Страница не найдена — e-dukon",
+    "en": "Page not found — e-dukon"
+  },
+  "1": {
+    "uz": "Sahifa topilmadi.",
+    "ru": "Страница не найдена.",
+    "en": "Page not found."
+  },
+  "2": {
+    "uz": "Manzilni tekshiring yoki bosh sahifaga qayting.",
+    "ru": "Проверьте адрес или вернитесь на главную.",
+    "en": "Check the address or return home."
+  },
+  "3": {
+    "uz": "Bosh sahifaga qaytish",
+    "ru": "На главную",
+    "en": "Back to home"
+  },
+  "4": {
+    "uz": "e-dukon — do‘koningiz boshqaruvi bir joyda",
+    "ru": "e-dukon — управление магазином в одном месте",
+    "en": "e-dukon — your store in one place"
+  },
+  "5": {
+    "uz": "Asosiy mazmunga o‘tish",
+    "ru": "Перейти к содержимому",
+    "en": "Skip to content"
+  },
+  "6": {
+    "uz": "e-dukon",
+    "ru": "e-dukon",
+    "en": "e-dukon"
+  },
+  "7": {
+    "uz": "A DEALS PRODUCT",
+    "ru": "ПРОДУКТ DEALS",
+    "en": "A DEALS PRODUCT"
+  },
+  "8": {
+    "uz": "Bosh sahifa",
+    "ru": "Главная",
+    "en": "Home"
+  },
+  "9": {
+    "uz": "Imkoniyatlar",
+    "ru": "Возможности",
+    "en": "Features"
+  },
+  "10": {
+    "uz": "Biz haqimizda",
+    "ru": "О нас",
+    "en": "About us"
+  },
+  "11": {
+    "uz": "Bog‘lanish",
+    "ru": "Контакты",
+    "en": "Contact"
+  },
+  "12": {
+    "uz": "Ilovani yuklab olish",
+    "ru": "Скачать приложение",
+    "en": "Download app"
+  },
+  "13": {
+    "uz": "Kundalik savdo. Tartibli hisob.",
+    "ru": "Ежедневные продажи. Порядок в учёте.",
+    "en": "Daily sales. Organized records."
+  },
+  "14": {
+    "uz": "Do‘koningiz uchun qulay mobil yordamchi.",
+    "ru": "Удобный мобильный помощник для магазина.",
+    "en": "A handy mobile assistant for your store."
+  },
+  "15": {
+    "uz": "e-dukon.",
+    "ru": "e-dukon.",
+    "en": "e-dukon."
+  },
+  "16": {
+    "uz": "DEALS tomonidan yaratilgan",
+    "ru": "Разработано DEALS",
+    "en": "Created by DEALS"
+  },
+  "17": {
+    "uz": "Kompaniya haqida ↗",
+    "ru": "О компании ↗",
+    "en": "About the company ↗"
+  },
+  "18": {
+    "uz": "Android va Windows uchun yuklab olish — e-dukon",
+    "ru": "Скачать для Android и Windows — e-dukon",
+    "en": "Download for Android and Windows — e-dukon"
+  },
+  "19": {
+    "uz": "e-dukon — DEALS mahsuloti. Telefon, planshet va Windows kompyuter uchun ilovani tanlang.",
+    "ru": "e-dukon — продукт DEALS. Выберите приложение для телефона, планшета или Windows.",
+    "en": "e-dukon by DEALS. Choose the app for your phone, tablet or Windows PC."
+  },
+  "20": {
+    "uz": "← Bosh sahifaga qaytish",
+    "ru": "← На главную",
+    "en": "← Back to home"
+  },
+  "21": {
+    "uz": "SIZGA QULAY QURILMADA",
+    "ru": "НА УДОБНОМ ВАМ УСТРОЙСТВЕ",
+    "en": "ON YOUR PREFERRED DEVICE"
+  },
+  "22": {
+    "uz": "Bir tizim.",
+    "ru": "Одна система.",
+    "en": "One system."
+  },
+  "23": {
+    "uz": "O‘zingizga qulay ekran.",
+    "ru": "Удобный вам экран.",
+    "en": "Your preferred screen."
+  },
+  "24": {
+    "uz": "Telefonda, planshetda yoki ish kompyuteringizda — do‘koningiz hisobi bir joyda.",
+    "ru": "Телефон, планшет или компьютер — учёт магазина в одном месте.",
+    "en": "Phone, tablet or desktop — your store records in one place."
+  },
+  "25": {
+    "uz": "ANDROID",
+    "ru": "ANDROID",
+    "en": "ANDROID"
+  },
+  "26": {
+    "uz": "Yonma-yon yordamchi.",
+    "ru": "Помощник всегда рядом.",
+    "en": "Your everyday companion."
+  },
+  "27": {
+    "uz": "Telefon va planshetda mahsulotlarni toping, savdo qiling va natijani kuzating.",
+    "ru": "Находите товары, оформляйте продажи и следите за результатами на телефоне и планшете.",
+    "en": "Find products, make sales and track results on your phone or tablet."
+  },
+  "28": {
+    "uz": "Qulay mobil interfeys",
+    "ru": "Удобный мобильный интерфейс",
+    "en": "Convenient mobile interface"
+  },
+  "29": {
+    "uz": "Kamera orqali shtrix-kod",
+    "ru": "Сканирование штрихкодов камерой",
+    "en": "Camera barcode scanning"
+  },
+  "30": {
+    "uz": "Telefon va Android planshetlar",
+    "ru": "Телефоны и планшеты Android",
+    "en": "Android phones and tablets"
+  },
+  "31": {
+    "uz": "Android uchun yuklab olish",
+    "ru": "Скачать для Android",
+    "en": "Download for Android"
+  },
+  "32": {
+    "uz": "APK · Fayl mavjudligi yuklashdan oldin tekshiriladi.",
+    "ru": "APK · Доступность файла проверяется перед скачиванием.",
+    "en": "APK · File availability is checked before downloading."
+  },
+  "33": {
+    "uz": "WINDOWS",
+    "ru": "WINDOWS",
+    "en": "WINDOWS"
+  },
+  "34": {
+    "uz": "Katta ekran. Keng imkoniyat.",
+    "ru": "Большой экран. Больше возможностей.",
+    "en": "Bigger screen. More possibilities."
+  },
+  "35": {
+    "uz": "Noutbuk yoki ish kompyuteringizda katalog va kassani keng ekranda boshqaring.",
+    "ru": "Управляйте каталогом и кассой на большом экране ноутбука или компьютера.",
+    "en": "Manage your catalog and checkout on a laptop or desktop screen."
+  },
+  "36": {
+    "uz": "Windows 10 / 11 · x64",
+    "ru": "Windows 10 / 11 · x64",
+    "en": "Windows 10 / 11 · x64"
+  },
+  "37": {
+    "uz": "Klaviatura va USB skaner",
+    "ru": "Клавиатура и USB-сканер",
+    "en": "Keyboard and USB scanner"
+  },
+  "38": {
+    "uz": "Mahsulotlar va ombor manzili",
+    "ru": "Товары и места хранения",
+    "en": "Products and storage locations"
+  },
+  "39": {
+    "uz": "Versiya:",
+    "ru": "Версия:",
+    "en": "Version:"
+  },
+  "40": {
+    "uz": "Windows uchun yuklab olish (.exe)",
+    "ru": "Скачать для Windows (.exe)",
+    "en": "Download for Windows (.exe)"
+  },
+  "41": {
+    "uz": "O‘rnatuvchini yuklab oling va kompyuteringizda oching.",
+    "ru": "Скачайте установщик и откройте его на компьютере.",
+    "en": "Download the installer and open it on your computer."
+  },
+  "42": {
+    "uz": "Windows versiyasi tayyorlanmoqda",
+    "ru": "Версия для Windows готовится",
+    "en": "Windows version coming soon"
+  },
+  "43": {
+    "uz": "O‘rnatuvchi joylangach, yuklab olish shu yerda ochiladi.",
+    "ru": "Скачивание появится здесь после загрузки установщика.",
+    "en": "The download will be available here when the installer is published."
+  },
+  "44": {
+    "uz": "Mavjud hisobingiz bilan kiring. Birinchi kirishda internet kerak.",
+    "ru": "Войдите в существующий аккаунт. При первом входе нужен интернет.",
+    "en": "Sign in to your existing account. Internet is required for the first login."
+  },
+  "45": {
+    "uz": "Yordam olish ↗",
+    "ru": "Получить помощь ↗",
+    "en": "Get help ↗"
+  },
+  "46": {
+    "uz": "BOSHLASH OSON",
+    "ru": "ЛЕГКО НАЧАТЬ",
+    "en": "EASY TO START"
+  },
+  "47": {
+    "uz": "Yuklab oling. Kiring. Boshqaring.",
+    "ru": "Скачайте. Войдите. Управляйте.",
+    "en": "Download. Sign in. Manage."
+  },
+  "48": {
+    "uz": "Versiyani tanlang.",
+    "ru": "Выберите версию.",
+    "en": "Choose your version."
+  },
+  "49": {
+    "uz": "Qurilmangizga mos Android APK yoki Windows o‘rnatuvchisini yuklab oling.",
+    "ru": "Скачайте Android APK или установщик Windows для вашего устройства.",
+    "en": "Download the Android APK or Windows installer for your device."
+  },
+  "50": {
+    "uz": "Ilovani o‘rnating.",
+    "ru": "Установите приложение.",
+    "en": "Install the app."
+  },
+  "51": {
+    "uz": "Faylni oching va qurilmangiz ko‘rsatmalariga amal qiling. Faqat rasmiy manbadan yuklang.",
+    "ru": "Откройте файл и следуйте инструкциям устройства. Скачивайте только из официального источника.",
+    "en": "Open the file and follow your device instructions. Download only from the official source."
+  },
+  "52": {
+    "uz": "Hisobingizga kiring.",
+    "ru": "Войдите в аккаунт.",
+    "en": "Sign in to your account."
+  },
+  "53": {
+    "uz": "Login yoki sizga taqdim etilgan aktivatsiya kodi bilan ishlashni boshlang.",
+    "ru": "Начните работу с логином или выданным вам кодом активации.",
+    "en": "Start with your login or the activation code provided to you."
+  },
+  "54": {
+    "uz": "DO‘KONINGIZ UCHUN YAGONA TIZIM",
+    "ru": "ЕДИНАЯ СИСТЕМА ДЛЯ МАГАЗИНА",
+    "en": "ONE SYSTEM FOR YOUR STORE"
+  },
+  "55": {
+    "uz": "Do‘koningiz",
+    "ru": "Ваш магазин",
+    "en": "Your store"
+  },
+  "56": {
+    "uz": "boshqaruvi —",
+    "ru": "под контролем —",
+    "en": "under control —"
+  },
+  "57": {
+    "uz": "bir joyda.",
+    "ru": "в одном месте.",
+    "en": "in one place."
+  },
+  "58": {
+    "uz": "Savdolarni nazorat qiling, mahsulotlaringizni boshqaring va ombor holatini telefon, planshet yoki Windows kompyuterda kuzating.",
+    "ru": "Контролируйте продажи, управляйте товарами и отслеживайте запасы с телефона, планшета или компьютера Windows.",
+    "en": "Track sales, manage products and monitor inventory on your phone, tablet or Windows PC."
+  },
+  "59": {
+    "uz": "Imkoniyatlarni ko‘rish",
+    "ru": "Посмотреть возможности",
+    "en": "Explore features"
+  },
+  "60": {
+    "uz": "Windows uchun",
+    "ru": "Для Windows",
+    "en": "For Windows"
+  },
+  "61": {
+    "uz": "Android uchun",
+    "ru": "Для Android",
+    "en": "For Android"
+  },
+  "62": {
+    "uz": "Hisobingiz bilan kirish",
+    "ru": "Вход в свой аккаунт",
+    "en": "Sign in to your account"
+  },
+  "63": {
+    "uz": "SAVDO. OMBOR. HISOB.",
+    "ru": "ПРОДАЖИ. СКЛАД. УЧЁТ.",
+    "en": "SALES. STOCK. RECORDS."
+  },
+  "64": {
+    "uz": "Tartibli savat",
+    "ru": "Порядок в корзине",
+    "en": "Organized cart"
+  },
+  "65": {
+    "uz": "Miqdor va jami — bir ko‘rinishda",
+    "ru": "Количество и итог на одном экране",
+    "en": "Quantity and total at a glance"
+  },
+  "66": {
+    "uz": "Namuna interfeys · haqiqiy hisob ma’lumotlari emas",
+    "ru": "Демонстрационный интерфейс · не реальные данные",
+    "en": "Sample interface · not real account data"
+  },
+  "67": {
+    "uz": "Kundalik ish uchun kerakli vositalar",
+    "ru": "Инструменты для ежедневной работы",
+    "en": "Tools for everyday work"
+  },
+  "68": {
+    "uz": "Kassa",
+    "ru": "Касса",
+    "en": "Checkout"
+  },
+  "69": {
+    "uz": "Ombor",
+    "ru": "Склад",
+    "en": "Inventory"
+  },
+  "70": {
+    "uz": "Hisobot",
+    "ru": "Отчёты",
+    "en": "Reports"
+  },
+  "71": {
+    "uz": "Daftar",
+    "ru": "Долги",
+    "en": "Ledger"
+  },
+  "72": {
+    "uz": "KAMROQ TARTIBSIZLIK",
+    "ru": "МЕНЬШЕ БЕСПОРЯДКА",
+    "en": "LESS CLUTTER"
+  },
+  "73": {
+    "uz": "Do‘kon boshqaruvi",
+    "ru": "Управлять магазином",
+    "en": "Store management"
+  },
+  "74": {
+    "uz": "endi osonroq.",
+    "ru": "теперь проще.",
+    "en": "made easier."
+  },
+  "75": {
+    "uz": "Kassa, ombor va daftarni alohida kuzatish ko‘p e’tibor talab qiladi. Muhim ma’lumotlarni bir tizimda jamlang.",
+    "ru": "Следить за кассой, складом и долгами отдельно непросто. Соберите важную информацию в одной системе.",
+    "en": "Tracking sales, stock and debts separately takes effort. Keep important information in one system."
+  },
+  "76": {
+    "uz": "Savdo hisobini yo‘qotmang.",
+    "ru": "Не теряйте учёт продаж.",
+    "en": "Keep track of every sale."
+  },
+  "77": {
+    "uz": "Har bir savdo va uning to‘lov summalarini qayd eting.",
+    "ru": "Фиксируйте каждую продажу и суммы оплаты.",
+    "en": "Record every sale and its payment amounts."
+  },
+  "78": {
+    "uz": "Qoldiqni taxmin qilmang.",
+    "ru": "Не гадайте об остатках.",
+    "en": "Know your stock levels."
+  },
+  "79": {
+    "uz": "Mahsulot, narx va ombordagi miqdorni tartibli kuzating.",
+    "ru": "Следите за товарами, ценами и количеством на складе.",
+    "en": "Keep products, prices and stock quantities organized."
+  },
+  "80": {
+    "uz": "Natija va qarzlarni birga ko‘ring.",
+    "ru": "Результаты и долги вместе.",
+    "en": "See results and debts together."
+  },
+  "81": {
+    "uz": "Kunlik hisoblar, qarz muddatlari va to‘lovlarga qayting.",
+    "ru": "Возвращайтесь к дневным итогам, срокам долгов и платежам.",
+    "en": "Review daily records, debt deadlines and payments."
+  },
+  "82": {
+    "uz": "BIR ILOVA. KERAKLI IMKONIYATLAR.",
+    "ru": "ОДНО ПРИЛОЖЕНИЕ. НУЖНЫЕ ВОЗМОЖНОСТИ.",
+    "en": "ONE APP. THE FEATURES YOU NEED."
+  },
+  "83": {
+    "uz": "Hisobingiz aniq.",
+    "ru": "Точный учёт.",
+    "en": "Clear records."
+  },
+  "84": {
+    "uz": "Ishingiz tartibli.",
+    "ru": "Порядок в работе.",
+    "en": "Organized work."
+  },
+  "85": {
+    "uz": "Ortiqcha murakkabliksiz, do‘konning kundalik vazifalariga mos vositalar.",
+    "ru": "Инструменты для ежедневных задач магазина без лишних сложностей.",
+    "en": "Tools built for daily store tasks without unnecessary complexity."
+  },
+  "86": {
+    "uz": "Kassa va savdo",
+    "ru": "Касса и продажи",
+    "en": "Checkout and sales"
+  },
+  "87": {
+    "uz": "Mahsulotlarni savatga qo‘shing, miqdorni o‘zgartiring va savdoni rasmiylashtiring. Naqd va karta summalarini alohida qayd eting.",
+    "ru": "Добавляйте товары в корзину, меняйте количество и оформляйте продажи. Учитывайте наличные и оплату картой отдельно.",
+    "en": "Add products to the cart, adjust quantities and complete sales. Record cash and card amounts separately."
+  },
+  "88": {
+    "uz": "Mahsulotlar",
+    "ru": "Товары",
+    "en": "Products"
+  },
+  "89": {
+    "uz": "Nom, narx, shtrix-kod va rasmlarni tartibga soling. Kerakli mahsulotni qidiruv orqali toping.",
+    "ru": "Упорядочьте названия, цены, штрихкоды и фото. Находите нужные товары через поиск.",
+    "en": "Organize names, prices, barcodes and photos. Find the right product with search."
+  },
+  "90": {
+    "uz": "Ombor nazorati",
+    "ru": "Контроль склада",
+    "en": "Inventory control"
+  },
+  "91": {
+    "uz": "Qoldiqlarni kuzating, miqdorlarni ombor harakati bilan o‘zgartiring va kam qolgan mahsulotlarni aniqlang.",
+    "ru": "Следите за остатками, оформляйте движения склада и находите товары с низким запасом.",
+    "en": "Track stock, record inventory movements and identify low-stock products."
+  },
+  "92": {
+    "uz": "QR va shtrix-kod",
+    "ru": "QR и штрихкоды",
+    "en": "QR and barcodes"
+  },
+  "93": {
+    "uz": "Telefon kamerasi bilan kodni o‘qib, mos mahsulotni toping. Tashqi skaner uchun kod maydoni ham mavjud.",
+    "ru": "Сканируйте коды камерой телефона и находите товары. Для внешнего сканера есть поле ввода кода.",
+    "en": "Scan codes with your phone camera to find products. A code field also supports external scanners."
+  },
+  "94": {
+    "uz": "Tushunarli hisobotlar",
+    "ru": "Понятные отчёты",
+    "en": "Clear reports"
+  },
+  "95": {
+    "uz": "Davrni tanlab savdo, tushum, naqd pul va karta bo‘yicha hisoblarni ko‘ring.",
+    "ru": "Выберите период и просмотрите продажи, выручку, наличные и оплату картой.",
+    "en": "Choose a period to review sales, revenue, cash and card payments."
+  },
+  "96": {
+    "uz": "Savdo tarixi",
+    "ru": "История продаж",
+    "en": "Sales history"
+  },
+  "97": {
+    "uz": "Oldingi savdolar ro‘yxati va chek tafsilotlariga qayting. Hisobingizni yozuvlar bilan solishtiring.",
+    "ru": "Возвращайтесь к списку продаж и деталям чеков. Сверяйте учёт с записями.",
+    "en": "Review past sales and receipt details. Compare your totals with recorded transactions."
+  },
+  "98": {
+    "uz": "Daftar va qarzlar",
+    "ru": "Учёт долгов",
+    "en": "Debt ledger"
+  },
+  "99": {
+    "uz": "Mijoz yoki do‘kon qarzlarini, qisman to‘lovlar va muddatlarni bir joyda kuzating.",
+    "ru": "Следите за долгами клиентов и магазина, частичными платежами и сроками в одном месте.",
+    "en": "Track customer and store debts, partial payments and due dates in one place."
+  },
+  "100": {
+    "uz": "Obuna va tariflar",
+    "ru": "Подписка и тарифы",
+    "en": "Subscriptions and plans"
+  },
+  "101": {
+    "uz": "Tariflarni ilovada tanlang va inPAY orqali to‘lang. Tasdiqlangan to‘lovdan keyin obuna yangilanadi.",
+    "ru": "Выберите тариф в приложении и оплатите через inPAY. Подписка обновится после подтверждения оплаты.",
+    "en": "Choose a plan in the app and pay with inPAY. Your subscription updates after payment is confirmed."
+  },
+  "102": {
+    "uz": "Ulanish uzilganda ham",
+    "ru": "Даже без подключения",
+    "en": "When the connection drops"
+  },
+  "103": {
+    "uz": "Oldin tasdiqlangan hisob va keshlangan ma’lumotlar bilan savdo qurilmada saqlanadi. Keyin serverga sinxronlanadi.",
+    "ru": "С подтверждённым аккаунтом и кешированными данными продажи сохраняются на устройстве, а затем синхронизируются.",
+    "en": "With a previously verified account and cached data, sales are stored on your device and synced later."
+  },
+  "104": {
+    "uz": "Offline — server tasdig‘ini almashtirmaydi.",
+    "ru": "Офлайн не заменяет подтверждение сервера.",
+    "en": "Offline does not replace server confirmation."
+  },
+  "105": {
+    "uz": "Saqlangan savdolar ulanish qaytgach tekshiriladi. Qoldiq yoki boshqa ma’lumotlarda ziddiyat bo‘lsa, uni hal qilish talab etiladi.",
+    "ru": "Сохранённые продажи проверяются после восстановления связи. Конфликты остатков или данных потребуют разрешения.",
+    "en": "Saved sales are checked when connectivity returns. Stock or data conflicts may require resolution."
+  },
+  "106": {
+    "uz": "BOSHLASH OSОN",
+    "ru": "ЛЕГКО НАЧАТЬ",
+    "en": "EASY TO START"
+  },
+  "107": {
+    "uz": "Uch qadam. Yagona tartib.",
+    "ru": "Три шага. Единый порядок.",
+    "en": "Three steps. One organized workflow."
+  },
+  "108": {
+    "uz": "Ilovani yuklab oling.",
+    "ru": "Скачайте приложение.",
+    "en": "Download the app."
+  },
+  "109": {
+    "uz": "Android yoki Windows uchun mos versiyani yuklab olish sahifasidan tanlang.",
+    "ru": "Выберите подходящую версию Android или Windows на странице скачивания.",
+    "en": "Choose the Android or Windows version on the download page."
+  },
+  "110": {
+    "uz": "Mavjud hisobdan foydalaning yoki administrator bergan kod orqali aktivatsiyadan o‘ting.",
+    "ru": "Используйте существующий аккаунт или код активации от администратора.",
+    "en": "Use an existing account or activate with a code from your administrator."
+  },
+  "111": {
+    "uz": "Hisobni boshlang.",
+    "ru": "Начните учёт.",
+    "en": "Start keeping records."
+  },
+  "112": {
+    "uz": "Mahsulotlarni kiriting, savdolarni rasmiylashtiring va omborni kuzating.",
+    "ru": "Добавляйте товары, оформляйте продажи и следите за складом.",
+    "en": "Add products, record sales and monitor inventory."
+  },
+  "113": {
+    "uz": "MOBIL ISH MAYDONINGIZ",
+    "ru": "ВАШЕ МОБИЛЬНОЕ РАБОЧЕЕ МЕСТО",
+    "en": "YOUR MOBILE WORKSPACE"
+  },
+  "114": {
+    "uz": "Kerakli ma’lumot.",
+    "ru": "Нужная информация.",
+    "en": "The right information."
+  },
+  "115": {
+    "uz": "Kerakli joyda.",
+    "ru": "В нужном месте.",
+    "en": "In the right place."
+  },
+  "116": {
+    "uz": "Quyidagi ko‘rinishlar ilova funksiyalarini tushuntirish uchun yaratilgan namunalardir. Haqiqiy screenshot emas.",
+    "ru": "Эти примеры показывают функции приложения. Это не реальные скриншоты.",
+    "en": "These examples illustrate app features. They are not actual screenshots."
+  },
+  "117": {
+    "uz": "01 / KASSA",
+    "ru": "01 / КАССА",
+    "en": "01 / CHECKOUT"
+  },
+  "118": {
+    "uz": "Savdoni yakunlang.",
+    "ru": "Завершайте продажи.",
+    "en": "Complete a sale."
+  },
+  "119": {
+    "uz": "02 / MAHSULOTLAR",
+    "ru": "02 / ТОВАРЫ",
+    "en": "02 / PRODUCTS"
+  },
+  "120": {
+    "uz": "Qoldiqni kuzating.",
+    "ru": "Следите за остатками.",
+    "en": "Monitor stock."
+  },
+  "121": {
+    "uz": "03 / HISOBOT",
+    "ru": "03 / ОТЧЁТЫ",
+    "en": "03 / REPORTS"
+  },
+  "122": {
+    "uz": "Natijani ko‘ring.",
+    "ru": "Оценивайте результат.",
+    "en": "See your results."
+  },
+  "123": {
+    "uz": "KIMLAR UCHUN?",
+    "ru": "ДЛЯ КОГО?",
+    "en": "WHO IS IT FOR?"
+  },
+  "124": {
+    "uz": "Kundalik savdo",
+    "ru": "Для тех, кто",
+    "en": "For businesses"
+  },
+  "125": {
+    "uz": "qiladiganlar uchun.",
+    "ru": "продаёт каждый день.",
+    "en": "selling every day."
+  },
+  "126": {
+    "uz": "Kiyim, aksessuar va maishiy tovar do‘konlari",
+    "ru": "Магазины одежды, аксессуаров и товаров для дома",
+    "en": "Clothing, accessories and household goods stores"
+  },
+  "127": {
+    "uz": "Kichik va o‘rta savdo nuqtalari",
+    "ru": "Малые и средние торговые точки",
+    "en": "Small and medium retail outlets"
+  },
+  "128": {
+    "uz": "Hisobini tartibga solmoqchi bo‘lgan tadbirkorlar",
+    "ru": "Предприниматели, которым нужен порядок в учёте",
+    "en": "Business owners who want organized records"
+  },
+  "129": {
+    "uz": "Sodda. Tushunarli. Tartibli.",
+    "ru": "Просто. Понятно. Организованно.",
+    "en": "Simple. Clear. Organized."
+  },
+  "130": {
+    "uz": "BIZ HAQIMIZDA",
+    "ru": "О НАС",
+    "en": "ABOUT US"
+  },
+  "131": {
+    "uz": "Biznesingizni boshqarishning qulayroq usuli.",
+    "ru": "Удобный способ управлять бизнесом.",
+    "en": "An easier way to manage your business."
+  },
+  "132": {
+    "uz": "e-dukonning maqsadi — do‘kon egalariga kundalik savdo va hisob-kitob ishlarini sodda, tushunarli va tartibli yuritishda yordam berish.",
+    "ru": "e-dukon помогает владельцам магазинов просто и понятно вести ежедневные продажи и учёт.",
+    "en": "e-dukon helps store owners manage daily sales and records clearly and simply."
+  },
+  "133": {
+    "uz": "Mahsulotning markazida — kundalik vazifalar: savdo qilish, qoldiqni bilish, yozuvlarni topish va natijani ko‘rish.",
+    "ru": "В центре продукта — ежедневные задачи: продажи, остатки, поиск записей и оценка результатов.",
+    "en": "The product focuses on everyday tasks: selling, checking stock, finding records and reviewing results."
+  },
+  "134": {
+    "uz": "SAVOLLAR VA JAVOBLAR",
+    "ru": "ВОПРОСЫ И ОТВЕТЫ",
+    "en": "QUESTIONS AND ANSWERS"
+  },
+  "135": {
+    "uz": "Bilish foydali.",
+    "ru": "Полезно знать.",
+    "en": "Good to know."
+  },
+  "136": {
+    "uz": "Ilovani o‘rnatish va undan foydalanishdan oldin.",
+    "ru": "Перед установкой и использованием приложения.",
+    "en": "Before installing and using the app."
+  },
+  "137": {
+    "uz": "e-dukon nima?",
+    "ru": "Что такое e-dukon?",
+    "en": "What is e-dukon?"
+  },
+  "138": {
+    "uz": "Do‘konning kundalik savdosi, mahsulotlari, ombor qoldig‘i va qarz hisobini yuritishga yordam beradigan mobil ilova.",
+    "ru": "Мобильное приложение для ежедневных продаж, товаров, складских остатков и долгов магазина.",
+    "en": "A mobile app for managing daily store sales, products, inventory and debts."
+  },
+  "139": {
+    "uz": "Ilova qaysi qurilmalarda ishlaydi?",
+    "ru": "На каких устройствах работает приложение?",
+    "en": "Which devices are supported?"
+  },
+  "140": {
+    "uz": "Android telefon va planshetlar uchun APK, Windows kompyuterlar uchun o‘rnatuvchi taqdim etiladi. Mavjud versiyalar yuklab olish sahifasida ko‘rsatiladi.",
+    "ru": "APK доступен для телефонов и планшетов Android, установщик — для Windows. Доступные версии указаны на странице скачивания.",
+    "en": "An APK is provided for Android phones and tablets, and an installer for Windows PCs. Available versions are listed on the download page."
+  },
+  "141": {
+    "uz": "Ilovani qanday yuklab olaman?",
+    "ru": "Как скачать приложение?",
+    "en": "How do I download the app?"
+  },
+  "142": {
+    "uz": "Yuklab olish sahifasiga o‘ting. APK joylashtirilgan bo‘lsa, Android tugmasi orqali faylni oling. Fayl hali bo‘lmasa, sahifada bu haqda xabar chiqadi.",
+    "ru": "Откройте страницу скачивания и нажмите кнопку Android. Если файл недоступен, на странице появится сообщение.",
+    "en": "Open the download page and use the Android button. If the APK is unavailable, the page will show a message."
+  },
+  "143": {
+    "uz": "Foydalanish uchun internet kerakmi?",
+    "ru": "Нужен ли интернет?",
+    "en": "Is internet required?"
+  },
+  "144": {
+    "uz": "Birinchi kirish, hisobni tasdiqlash va serverga sinxronlash uchun internet kerak. Oldin tasdiqlangan hisobda keshlangan mahsulotlar bilan offline savdo qurilmada saqlanadi. Server tasdig‘i keyin olinadi; ayrim amallar ulanishni talab qiladi.",
+    "ru": "Для первого входа, проверки аккаунта и синхронизации нужен интернет. В подтверждённом аккаунте офлайн-продажи с кешированными товарами сохраняются на устройстве. Сервер подтвердит их позже; отдельные операции требуют подключения.",
+    "en": "Internet is needed for the first login, account verification and syncing. With a verified account and cached products, offline sales are saved locally. Server confirmation follows later; some actions require a connection."
+  },
+  "145": {
+    "uz": "Tariflar va obuna qanday ishlaydi?",
+    "ru": "Как работают тарифы и подписка?",
+    "en": "How do plans and subscriptions work?"
+  },
+  "146": {
+    "uz": "Amaldagi tarif va narxlar ilovaning profil bo‘limida ko‘rsatiladi. To‘lov arizasini yuborish mumkin. To‘lov administrator tomonidan tasdiqlangach obuna faollashadi; ilova kartadan avtomatik pul yechmaydi.",
+    "ru": "Тарифы и цены указаны в профиле приложения. Оплатите через inPAY; подписка обновится после подтверждения платежа.",
+    "en": "Current plans and prices are shown in the app profile. Pay through inPAY; your subscription updates after payment confirmation."
+  },
+  "147": {
+    "uz": "Muammo yuz bersa, kimga murojaat qilaman?",
+    "ru": "Куда обратиться при проблеме?",
+    "en": "Who can help if something goes wrong?"
+  },
+  "148": {
+    "uz": "Quyidagi bog‘lanish bo‘limida e’lon qilingan rasmiy aloqa kanallaridan foydalaning. Kanallar hali ko‘rsatilmagan bo‘lsa, ular tayyor bo‘lgach shu yerda e’lon qilinadi.",
+    "ru": "Используйте официальные каналы в разделе контактов ниже. Если их пока нет, они появятся после публикации.",
+    "en": "Use the official channels in the contact section below. If none are listed yet, they will appear once published."
+  },
+  "149": {
+    "uz": "E-DUKON ORTIDAGI JAMOA",
+    "ru": "КОМАНДА E-DUKON",
+    "en": "THE TEAM BEHIND E-DUKON"
+  },
+  "150": {
+    "uz": "Tizim. O‘sish.",
+    "ru": "Система. Рост.",
+    "en": "Systems. Growth."
+  },
+  "151": {
+    "uz": "Yangi imkoniyatlar.",
+    "ru": "Новые возможности.",
+    "en": "New possibilities."
+  },
+  "152": {
+    "uz": "e-dukon — DEALS kompaniyasining mahsuloti. Biz kundalik ishlarni tartibga soladigan va biznesni boshqarishni qulaylashtiradigan raqamli yechimlar yaratamiz.",
+    "ru": "e-dukon — продукт компании DEALS. Мы создаём цифровые решения, которые упорядочивают ежедневную работу и упрощают управление бизнесом.",
+    "en": "e-dukon is a DEALS product. We build digital solutions that organize daily work and make business management easier."
+  },
+  "153": {
+    "uz": "DEALS bilan tanishing",
+    "ru": "Познакомиться с DEALS",
+    "en": "Meet DEALS"
+  },
+  "154": {
+    "uz": "Built by DEALS",
+    "ru": "Создано DEALS",
+    "en": "Built by DEALS"
+  },
+  "155": {
+    "uz": "Biznes uchun yaratilgan.",
+    "ru": "Создано для бизнеса.",
+    "en": "Built for business."
+  },
+  "156": {
+    "uz": "ALOQA",
+    "ru": "КОНТАКТЫ",
+    "en": "CONTACT"
+  },
+  "157": {
+    "uz": "TELEGRAM",
+    "ru": "TELEGRAM",
+    "en": "TELEGRAM"
+  },
+  "158": {
+    "uz": "Bizga yozing",
+    "ru": "Напишите нам",
+    "en": "Message us"
+  },
+  "159": {
+    "uz": "Tez va qulay muloqot",
+    "ru": "Быстрое и удобное общение",
+    "en": "Quick and easy communication"
+  },
+  "160": {
+    "uz": "TELEFON",
+    "ru": "ТЕЛЕФОН",
+    "en": "PHONE"
+  },
+  "161": {
+    "uz": "Birgalikda muhokama qilamiz",
+    "ru": "Обсудим вместе",
+    "en": "Let’s discuss it together"
+  },
+  "162": {
+    "uz": "EMAIL",
+    "ru": "EMAIL",
+    "en": "EMAIL"
+  },
+  "163": {
+    "uz": "Taklif va savollaringiz uchun",
+    "ru": "Для предложений и вопросов",
+    "en": "For suggestions and questions"
+  },
+  "164": {
+    "uz": "Rasmiy aloqa kanallari tez orada shu yerda paydo bo‘ladi.",
+    "ru": "Официальные контакты скоро появятся здесь.",
+    "en": "Official contact channels will appear here soon."
+  },
+  "165": {
+    "uz": "DO‘KONINGIZGA YANGI TARTIB",
+    "ru": "НОВЫЙ ПОРЯДОК В МАГАЗИНЕ",
+    "en": "BRING ORDER TO YOUR STORE"
+  },
+  "166": {
+    "uz": "Boshqaruvni",
+    "ru": "Соберите управление",
+    "en": "Bring management"
+  },
+  "167": {
+    "uz": "bir joyga jamlang.",
+    "ru": "в одном месте.",
+    "en": "together in one place."
+  },
+  "168": {
+    "uz": "Android va Windows uchun. Birinchi kirishda internet talab qilinadi.",
+    "ru": "Для Android и Windows. При первом входе нужен интернет.",
+    "en": "For Android and Windows. Internet required for the first login."
+  },
+  "169": {
+    "uz": "Namunaviy do‘kon",
+    "ru": "Демонстрационный магазин",
+    "en": "Demo store"
+  },
+  "170": {
+    "uz": "D",
+    "ru": "D",
+    "en": "D"
+  },
+  "171": {
+    "uz": "Mahsulotni qidirish",
+    "ru": "Поиск товара",
+    "en": "Search products"
+  },
+  "172": {
+    "uz": "Mahsulot",
+    "ru": "Товар",
+    "en": "Product"
+  },
+  "173": {
+    "uz": "Kam qolgan",
+    "ru": "Мало на складе",
+    "en": "Low stock"
+  },
+  "174": {
+    "uz": "USB kabel",
+    "ru": "USB-кабель",
+    "en": "USB cable"
+  },
+  "175": {
+    "uz": "18 dona · 14 000 so‘m",
+    "ru": "18 шт. · 14 000 сум",
+    "en": "18 pcs · 14,000 UZS"
+  },
+  "176": {
+    "uz": "Quloqchin",
+    "ru": "Наушники",
+    "en": "Headphones"
+  },
+  "177": {
+    "uz": "32 dona · 4 000 so‘m",
+    "ru": "32 шт. · 4 000 сум",
+    "en": "32 pcs · 4,000 UZS"
+  },
+  "178": {
+    "uz": "Telefon g‘ilofi",
+    "ru": "Чехол для телефона",
+    "en": "Phone case"
+  },
+  "179": {
+    "uz": "3 dona · 5 000 so‘m",
+    "ru": "3 шт. · 5 000 сум",
+    "en": "3 pcs · 5,000 UZS"
+  },
+  "180": {
+    "uz": "G‘ilof qoldig‘ini tekshiring",
+    "ru": "Проверьте остаток чехлов",
+    "en": "Check phone case stock"
+  },
+  "181": {
+    "uz": "Yangi mahsulot",
+    "ru": "Новый товар",
+    "en": "New product"
+  },
+  "182": {
+    "uz": "Bugun",
+    "ru": "Сегодня",
+    "en": "Today"
+  },
+  "183": {
+    "uz": "7 kun",
+    "ru": "7 дней",
+    "en": "7 days"
+  },
+  "184": {
+    "uz": "Bu oy",
+    "ru": "Этот месяц",
+    "en": "This month"
+  },
+  "185": {
+    "uz": "Namunaviy tushum",
+    "ru": "Демонстрационная выручка",
+    "en": "Sample revenue"
+  },
+  "186": {
+    "uz": "so‘m",
+    "ru": "сум",
+    "en": "UZS"
+  },
+  "187": {
+    "uz": "Namuna ma’lumotlari",
+    "ru": "Демонстрационные данные",
+    "en": "Sample data"
+  },
+  "188": {
+    "uz": "Du",
+    "ru": "Пн",
+    "en": "Mon"
+  },
+  "189": {
+    "uz": "Se",
+    "ru": "Вт",
+    "en": "Tue"
+  },
+  "190": {
+    "uz": "Ch",
+    "ru": "Ср",
+    "en": "Wed"
+  },
+  "191": {
+    "uz": "Pa",
+    "ru": "Чт",
+    "en": "Thu"
+  },
+  "192": {
+    "uz": "Ju",
+    "ru": "Пт",
+    "en": "Fri"
+  },
+  "193": {
+    "uz": "Sh",
+    "ru": "Сб",
+    "en": "Sat"
+  },
+  "194": {
+    "uz": "Ya",
+    "ru": "Вс",
+    "en": "Sun"
+  },
+  "195": {
+    "uz": "Naqd pul",
+    "ru": "Наличные",
+    "en": "Cash"
+  },
+  "196": {
+    "uz": "Karta",
+    "ru": "Карта",
+    "en": "Card"
+  },
+  "197": {
+    "uz": "Kod yoki mahsulot nomi",
+    "ru": "Код или название товара",
+    "en": "Code or product name"
+  },
+  "198": {
+    "uz": "Savat",
+    "ru": "Корзина",
+    "en": "Cart"
+  },
+  "199": {
+    "uz": "3 mahsulot",
+    "ru": "3 товара",
+    "en": "3 products"
+  },
+  "200": {
+    "uz": "1 × 14 000 so‘m",
+    "ru": "1 × 14 000 сум",
+    "en": "1 × 14,000 UZS"
+  },
+  "201": {
+    "uz": "2 × 4 000 so‘m",
+    "ru": "2 × 4 000 сум",
+    "en": "2 × 4,000 UZS"
+  },
+  "202": {
+    "uz": "1 × 5 000 so‘m",
+    "ru": "1 × 5 000 сум",
+    "en": "1 × 5,000 UZS"
+  },
+  "203": {
+    "uz": "Jami",
+    "ru": "Итого",
+    "en": "Total"
+  },
+  "204": {
+    "uz": "To‘lovga o‘tish",
+    "ru": "К оплате",
+    "en": "Proceed to payment"
+  },
+  "205": {
+    "uz": "APK ichidagi nom: Dokon Boshqaruv. Bu e-dukon ilovasining mavjud Android yig‘ilmasi.",
+    "ru": "Название внутри APK: Dokon Boshqaruv. Это существующая Android-сборка e-dukon.",
+    "en": "Name inside the APK: Dokon Boshqaruv. This is the existing Android build of e-dukon."
+  },
+  "206": {
+    "uz": "Telegram yoki Instagram ichida yuklash uzilsa, sahifani Chrome yoki boshqa tashqi brauzerda oching. Uzilgan yuklamani brauzerning Yuklamalar bo‘limida davom ettiring. Android APK iPhone uchun o‘rnatilmaydi.",
+    "ru": "Если загрузка прерывается в Telegram или Instagram, откройте страницу в Chrome или другом внешнем браузере. Продолжите загрузку в разделе загрузок браузера. Android APK не устанавливается на iPhone.",
+    "en": "If downloading fails inside Telegram or Instagram, open this page in Chrome or another external browser. Resume interrupted downloads in your browser’s Downloads section. Android APK files cannot be installed on iPhone."
+  }
+}

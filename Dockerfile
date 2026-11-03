@@ -3,4 +3,4 @@ WORKDIR /app
 COPY requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . /app/website
-CMD ["sh", "-c", "python /app/website/manage.py migrate --noinput && gunicorn website.wsgi:application --bind 0.0.0.0:${PORT:-8000} --workers 2 --access-logfile -"]
+CMD ["sh", "-c", "python /app/website/manage.py migrate --noinput && gunicorn website.wsgi:application --bind 0.0.0.0:${PORT:-8000} --workers 2 --threads 4 --worker-class gthread --timeout 300 --access-logfile -"]

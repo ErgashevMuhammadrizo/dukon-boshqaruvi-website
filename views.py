@@ -30,7 +30,7 @@ def configuration():
         contact_text='Savolingiz bormi? Sizga qulay kanalda yozing.',deals_url='',
         windows_url='', windows_version='', windows_available=False)
     if saved:
-        for name in ['telegram_url','phone','email','contact_title','contact_text','deals_url','windows_version']:
+        for name in ['telegram_url','phone','email','contact_title','contact_text','contact_title_ru','contact_text_ru','contact_title_en','contact_text_en','deals_url','windows_version']:
             result[name] = getattr(saved,name)
         if saved.android_version: result['apk_version'] = saved.android_version
         result['windows_url'] = saved.windows_url
@@ -40,6 +40,8 @@ def configuration():
             except OSError: pass
             if result['windows_available']: result['windows_url'] = '/downloads/e-dukon-setup.exe'
         elif saved.windows_url: result['windows_available'] = True
+    # APK must always be served from this site's verified endpoint.
+    result['download_url'] = defaults['download_url']
     url = urlparse(result['download_url'])
     if not (result['download_url'].startswith('/') and not result['download_url'].startswith('//')) and not (url.scheme == 'https' and url.netloc):
         result['download_url'] = defaults['download_url']
@@ -67,17 +69,38 @@ def context(request, page):
     from django.conf import settings
     from .domain import WEBSITE_URL
     origin = getattr(settings, 'SITE_URL', WEBSITE_URL).rstrip('/')
-    return {'site': configuration(), 'page': page,
-        'canonical': origin + request.path,
+    from .localization import language_for, MESSAGES, LANGUAGES
+    language = language_for(request); messages = MESSAGES[language]; site = configuration()
+    title = site['contact_title']; text = site['contact_text']
+    if title == MESSAGES['uz']['contact_title']: title = messages['contact_title']
+    if text.startswith(MESSAGES['uz']['contact_text']): text = messages['contact_text']
+    if language != 'uz':
+        title = site.get('contact_title_'+language) or messages['contact_title']
+        text = site.get('contact_text_'+language) or messages['contact_text']
+    return {'site': site, 'download_config': {k:site[k] for k in ('download_url','apk_version')}, 'page': page, 'language':language, 'languages':LANGUAGES,
+        'canonical': origin + request.path + ('?lang='+language if language != 'uz' else ''),
+        'page_origin':origin,'og_locale':{'uz':'uz_UZ','ru':'ru_RU','en':'en_US'}[language],
+        'ui_messages':messages,'menu_open':messages['open'],'navigation_label':messages['navigation'],
+        'meta_description':messages['description'],'contact_title':title,'contact_text':text,
         'og_image': origin + '/static/site/og.png'}
+
+def public_render(request, template, page, status=200):
+    from .localization import language_for
+    from django.utils.cache import patch_vary_headers
+    response = render(request, template, context(request, page), status=status)
+    patch_vary_headers(response, ['Cookie'])
+    if request.GET.get('lang') in ('uz','ru','en'):
+        response.set_cookie('website_language', language_for(request), max_age=31536000,
+            samesite='Lax', secure=request.is_secure(), httponly=True)
+    return response
 
 @require_safe
 def home(request):
-    return render(request, 'index.html', context(request, 'home'))
+    return public_render(request, 'index.html', 'home')
 
 @require_safe
 def download_page(request):
-    return render(request, 'download.html', context(request, 'download'))
+    return public_render(request, 'download.html', 'download')
 
 @require_safe
 def apk_download(request):
@@ -91,10 +114,8 @@ def apk_download(request):
         file.close()
         return unavailable_apk()
     file.seek(0)
-    response = FileResponse(file, as_attachment=True, filename='dokon-boshqaruv.apk', content_type='application/vnd.android.package-archive')
-    response['Cache-Control'] = 'no-cache, must-revalidate'
-    response['X-Content-Type-Options'] = 'nosniff'
-    return response
+    from .downloads import send_apk
+    return send_apk(request, file)
 
 @require_safe
 def asset(request, path):
@@ -104,7 +125,7 @@ def asset(request, path):
     return response
 
 def not_found(request, exception):
-    return render(request, '404.html', context(request, 'error'), status=404)
+    return public_render(request, '404.html', 'error', status=404)
 
 @require_safe
 def windows_download(request):

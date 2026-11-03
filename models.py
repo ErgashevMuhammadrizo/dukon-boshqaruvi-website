@@ -10,6 +10,10 @@ class SiteSettings(models.Model):
     email = models.EmailField('Email / Gmail', blank=True)
     contact_title = models.CharField('Bog‘lanish sarlavhasi', max_length=160, default='Biznesingiz haqida gaplashamiz.')
     contact_text = models.TextField('Bog‘lanish matni', default='Savolingiz bormi? Sizga qulay kanalda yozing — e-dukon bilan ishlashni boshlashga yordam beramiz.')
+    contact_title_ru = models.CharField('Ruscha aloqa sarlavhasi', max_length=160, blank=True)
+    contact_text_ru = models.TextField('Ruscha aloqa matni', blank=True)
+    contact_title_en = models.CharField('Inglizcha aloqa sarlavhasi', max_length=160, blank=True)
+    contact_text_en = models.TextField('Inglizcha aloqa matni', blank=True)
     deals_url = models.URLField('DEALS rasmiy havolasi', blank=True, help_text='Ixtiyoriy: kompaniyangiz sayti yoki Telegram havolasi')
     windows_file = models.FileField('Windows o‘rnatuvchisi (.exe)', upload_to='releases/windows/', blank=True,
         validators=[FileExtensionValidator(['exe'])], help_text='To‘liq installer EXE yuklang. Faqat runner EXE barcha DLLsiz ishlamasligi mumkin.')

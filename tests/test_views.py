@@ -45,7 +45,7 @@ class PublicWebsiteTests(TestCase):
                 self.assertEqual(response.status_code, 200)
                 self.assertEqual(response['Content-Type'], 'application/vnd.android.package-archive')
                 self.assertIn('attachment', response['Content-Disposition'])
-                self.assertIn('dokon-boshqaruv.apk', response['Content-Disposition'])
+                self.assertIn('e-dukon.apk', response['Content-Disposition'])
                 self.assertEqual(b''.join(response.streaming_content), payload)
                 response.close()
                 head = self.client.head('/downloads/dokon-boshqaruv.apk')

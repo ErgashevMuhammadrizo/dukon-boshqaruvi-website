@@ -1,11 +1,13 @@
 import { probeApk, formatBytes } from './download.js';
+let ui = {};
+try { ui = JSON.parse(document.querySelector('#ui-messages')?.textContent || '{}'); } catch {}
 const header = document.querySelector('#site-header');
 const menuButton = document.querySelector('#menu-toggle');
 const nav = document.querySelector('#main-nav');
 function setMenu(open) {
   nav?.classList.toggle('is-open', open);
   menuButton?.setAttribute('aria-expanded', String(open));
-  menuButton?.setAttribute('aria-label', open ? 'Menyuni yopish' : 'Menyuni ochish');
+  menuButton?.setAttribute('aria-label', open ? ui.close : ui.open);
   const symbol = menuButton?.querySelector('use');
   symbol?.setAttribute('href', `/static/site/icons.svg#${open ? 'close' : 'menu'}`);
 }
@@ -41,23 +43,23 @@ if (button && status) {
     if (busy) return;
     busy = true; button.setAttribute('aria-busy', 'true');
     status.className = 'download-status';
-    status.textContent = 'Ilova fayli tekshirilmoqda…';
+    status.textContent = ui.checking;
     try {
       const url = config.download_url || button.getAttribute('href');
-      const result = await probeApk(url);
+      const result = await probeApk(url, globalThis.fetch, 12000, ui);
       if (!result.available) {
         status.classList.add('is-error'); status.textContent = result.message;
         return;
       }
-      status.classList.add('is-success'); status.textContent = 'Yuklab olish boshlanmoqda. Faylni telefoningizning yuklamalar papkasidan topasiz.';
+      status.classList.add('is-success'); status.textContent = ui.starting;
       const metadata = document.querySelector('#download-metadata');
       const size = document.querySelector('#apk-size');
       const version = document.querySelector('#apk-version');
-      if (result.size && size) { size.textContent = `Fayl hajmi: ${formatBytes(result.size)}`; size.hidden = false; }
-      if (config.apk_version && version) { version.textContent = `Versiya: ${config.apk_version}`; version.hidden = false; }
+      if (result.size && size) { size.textContent = `${ui.size} ${formatBytes(result.size)}`; size.hidden = false; }
+      if (config.apk_version && version) { version.textContent = `${ui.version} ${config.apk_version}`; version.hidden = false; }
       if (metadata) metadata.hidden = !(result.size || config.apk_version);
       const anchor = document.createElement('a');
-      anchor.href = url; anchor.download = 'dokon-boshqaruv.apk';
+      anchor.href = url; anchor.download = 'e-dukon.apk';
       document.body.append(anchor); anchor.click(); anchor.remove();
     } finally { busy = false; button.removeAttribute('aria-busy'); }
   });

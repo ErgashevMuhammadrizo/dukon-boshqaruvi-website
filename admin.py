@@ -5,6 +5,7 @@ from .models import SiteSettings
 class SiteSettingsAdmin(admin.ModelAdmin):
     fieldsets = [
         ('Aloqa ma’lumotlari', {'fields': ['telegram_url','phone','email','contact_title','contact_text']}),
+        ('Aloqa tarjimalari', {'fields':['contact_title_ru','contact_text_ru','contact_title_en','contact_text_en']}),
         ('DEALS kompaniyasi', {'fields': ['deals_url']}),
         ('Windows yuklamasi', {'fields': ['windows_file','windows_url','windows_version']}),
         ('Android', {'fields': ['android_version']}),

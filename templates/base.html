@@ -1,21 +1,21 @@
-<!doctype html>
-<html lang="uz">
+{% load website_text %}<!doctype html>
+<html lang="{{ language }}">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#175cd3">
-<title>{% block title %}e-dukon — do‘koningiz boshqaruvi bir joyda{% endblock %}</title>
-<meta name="description" content="{% block description %}Savdo, mahsulot, ombor va qarz hisobini qulay Android ilovasida boshqaring. e-dukon imkoniyatlari bilan tanishing.{% endblock %}">
-<link rel="canonical" href="{{ canonical }}"><meta property="og:type" content="website"><meta property="og:locale" content="uz_UZ"><meta property="og:site_name" content="e-dukon"><meta property="og:title" content="e-dukon — do‘koningiz boshqaruvi bir joyda"><meta property="og:description" content="Savdo, ombor va kundalik hisob. Bitta qulay Android ilovasida."><meta property="og:url" content="{{ canonical }}"><meta property="og:image" content="{{ og_image }}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
+<title>{% block title %}{% t 4 %}{% endblock %}</title>
+<meta name="description" content="{% block description %}{{ meta_description }}{% endblock %}">
+<link rel="canonical" href="{{ canonical }}"><meta property="og:type" content="website"><meta property="og:locale" content="{{ og_locale }}"><meta property="og:site_name" content="e-dukon"><meta property="og:title" content="{% t 4 %}"><meta property="og:description" content="{{ meta_description }}"><meta property="og:url" content="{{ canonical }}"><meta property="og:image" content="{{ og_image }}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/static/site/logo.svg" type="image/svg+xml"><link rel="preload" href="/static/site/fonts/Inter.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/static/site/site.css"><script type="module" src="/static/site/site.js"></script>
-</head>
+{% for code, label in languages %}<link rel="alternate" hreflang="{{ code }}" href="{{ page_origin }}{{ request.path }}?lang={{ code }}">{% endfor %}</head>
 <body>
-<a class="skip-link" href="#main">Asosiy mazmunga o‘tish</a>
+<a class="skip-link" href="#main">{% t 5 %}</a>
 <header class="site-header" id="site-header"><div class="container nav-wrap">
-<a class="brand" href="/" aria-label="e-dukon — bosh sahifa"><img src="/static/site/logo.svg" width="36" height="36" alt=""><span><strong>e-dukon</strong><small class="brand-family">A DEALS PRODUCT</small></span></a>
-<button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Menyuni ochish"><svg class="icon " aria-hidden="true"><use href="/static/site/icons.svg#menu"/></svg></button>
-<nav id="main-nav" class="main-nav" aria-label="Asosiy navigatsiya"><a href="/" {% if page == 'home' %}aria-current="page"{% endif %}>Bosh sahifa</a><a href="/#imkoniyatlar">Imkoniyatlar</a><a href="/#biz-haqimizda">Biz haqimizda</a><a href="/#boglanish">Bog‘lanish</a><a class="button button-small" href="/download/">Ilovani yuklab olish <svg class="icon " aria-hidden="true"><use href="/static/site/icons.svg#arrow"/></svg></a></nav>
+<a class="brand" href="/" aria-label="{% t 8 %}"><img src="/static/site/logo.svg" width="36" height="36" alt=""><span><strong>{% t 6 %}</strong><small class="brand-family">{% t 7 %}</small></span></a>
+<button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="{{ menu_open }}"><svg class="icon " aria-hidden="true"><use href="/static/site/icons.svg#menu"/></svg></button>
+<div class="language-picker" aria-label="Language">{% for code, label in languages %}<a href="?lang={{ code }}" lang="{{ code }}" {% if language == code %}aria-current="true"{% endif %}>{{ label }}</a>{% endfor %}</div><nav id="main-nav" class="main-nav" aria-label="{{ navigation_label }}"><a href="/" {% if page == 'home' %}aria-current="page"{% endif %}>{% t 8 %}</a><a href="/#imkoniyatlar">{% t 9 %}</a><a href="/#biz-haqimizda">{% t 10 %}</a><a href="/#boglanish">{% t 11 %}</a><a class="button button-small" href="/download/">{% t 12 %} <svg class="icon " aria-hidden="true"><use href="/static/site/icons.svg#arrow"/></svg></a></nav>
 </div></header>
 <main id="main">{% block content %}{% endblock %}</main>
-<footer class="site-footer"><div class="container footer-top"><a class="brand" href="/"><img src="/static/site/logo.svg" width="34" height="34" alt=""><span><strong>e-dukon</strong><small class="brand-family">A DEALS PRODUCT</small></span></a><p>Kundalik savdo. Tartibli hisob.<br>Do‘koningiz uchun qulay mobil yordamchi.</p><div class="footer-links"><a href="/#imkoniyatlar">Imkoniyatlar</a><a href="/#biz-haqimizda">Biz haqimizda</a><a href="/#boglanish">Bog‘lanish</a><a href="/download/">Ilovani yuklab olish</a></div></div><div class="container footer-bottom"><span>© <span data-year>{% now 'Y' %}</span> e-dukon.</span><span class="footer-deals"><span class="deals-mini-mark"><img src="/static/site/deals-mark.png" alt="" width="42" height="42"></span> DEALS tomonidan yaratilgan{% if site.deals_url %} · <a href="{{ site.deals_url }}" target="_blank" rel="noopener noreferrer">Kompaniya haqida ↗</a>{% endif %}</span></div></footer>
-{{ site|json_script:'site-config' }}
+<footer class="site-footer"><div class="container footer-top"><a class="brand" href="/"><img src="/static/site/logo.svg" width="34" height="34" alt=""><span><strong>{% t 6 %}</strong><small class="brand-family">{% t 7 %}</small></span></a><p>{% t 13 %}<br>{% t 14 %}</p><div class="footer-links"><a href="/#imkoniyatlar">{% t 9 %}</a><a href="/#biz-haqimizda">{% t 10 %}</a><a href="/#boglanish">{% t 11 %}</a><a href="/download/">{% t 12 %}</a></div></div><div class="container footer-bottom"><span>© <span data-year>{% now 'Y' %}</span> {% t 15 %}</span><span class="footer-deals"><span class="deals-mini-mark"><img src="/static/site/deals-mark.png" alt="" width="42" height="42"></span> {% t 16 %}{% if site.deals_url %} · <a href="{{ site.deals_url }}" target="_blank" rel="noopener noreferrer">{% t 17 %}</a>{% endif %}</span></div></footer>
+{{ download_config|json_script:'site-config' }}{{ ui_messages|json_script:'ui-messages' }}
 </body></html>
